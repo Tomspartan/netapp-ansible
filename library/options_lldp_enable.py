@@ -27,9 +27,6 @@ options:
     description:
     - Specify if on or off. (only "on" or "off" are supported)
     required: true
-TODO:
-    extend module to support all or more options
-    allow settings per node/vserver settings
 """
 
 EXAMPLES = """
