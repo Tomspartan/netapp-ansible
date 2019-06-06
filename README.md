@@ -9,4 +9,6 @@ TODO
   * split destination url from protocol (enforcing one of the 3 allowed protocols)
   * username/password optional
   * no_log support for password
+* lldp enable module
+  * add setting to enable per vserver (node)
           
