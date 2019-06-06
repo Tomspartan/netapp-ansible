@@ -6,13 +6,6 @@
 from __future__ import absolute_import, division, print_function
 __metaclass__ = type
 
-# debuging portion to display data back to console
-# try:
-#     from __main__ import display
-# except ImportError:
-#     from ansible.utils.display import Display
-#     display = Display()
-
 
 ANSIBLE_METADATA = {'metadata_version': '1.1',
                     'status': ['preview'],
@@ -41,10 +34,6 @@ options:
   destination_pass:
     description:
     - Specify the password used to access the location url
-TODO:
-    split destination url from protocol (enforcing one of the 3 allowed protocols)
-    make username/password optional  
-    no_log support for supplied password
 '''
 
 EXAMPLES = """
